@@ -2,6 +2,26 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
 
+## Start development server with Docker
+
+> **Warning:**
+>
+> The Docker configuration in this project is **only intended for development and exists as a proof of concept**, and **must not be used for production**.
+
+You can start the docker container by using the following command:
+
+```bash
+docker compose up -d
+```
+
+Then navigate to `http://localhost:4200/` on your web browser: you should see the Angular starting page.
+
+> **Note:**
+>
+> Live reloading is enabled and any changes in your file should be reflected in your container.
+>
+> Your application should reload when you do any changes, without the need of restarting or rebuilding your image/container.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
